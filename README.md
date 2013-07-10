@@ -45,4 +45,6 @@ The plugin assumes you have nice HTML to work with. Something like this
 </table>
 ```
 
+If the table doesn't contain a thead element then the javascript will construct one from the first tr in tbody.
+
 Then just include the javascript and css on the page and you should be good to go.
