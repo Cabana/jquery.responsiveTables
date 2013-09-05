@@ -4,7 +4,7 @@ CSS and JS for quickly doing responsive data tables
 
 ## How to use
 
-The plugin assumes you have nice HTML to work with. Something like this
+Write some markup like this:
 
 ```html
 <table>
@@ -47,4 +47,9 @@ The plugin assumes you have nice HTML to work with. Something like this
 
 If the table doesn't contain a thead element then the javascript will construct one from the first tr in tbody.
 
-Then just include the javascript and css on the page and you should be good to go.
+Then just include the CSS and JS on the page and call the jQuery plugin:
+
+
+```javascript
+$('table.responsive').responsiveTables();
+```
